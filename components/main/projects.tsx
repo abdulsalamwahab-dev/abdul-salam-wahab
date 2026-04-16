@@ -38,7 +38,7 @@ const PROJECT_DATA = [
       "A simple discussion forum where users can create posts, participate in conversations, and interact using a clean PHP-based backend with MySQL database support.",
     tech: ["PHP", "HTML", "CSS", "MySQL"],
     image: "/projects/discussions.png",
-    github: "https://github.com/abdulsalamwahab-dev/discussion-php-project",
+    github: "https://github.com/abdulsalamwahab-dev/community-discussion-platform.git",
     live: "",
   },
 ];

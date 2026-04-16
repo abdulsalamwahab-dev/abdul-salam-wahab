@@ -68,9 +68,8 @@ export const Skills = () => {
 
   return (
     <section id="skills" className="flex flex-col items-center justify-center relative overflow-hidden py-10 md:py-20 lg:px-10">
-      <div className="mb-[-20px] md:mb-0 scale-75 md:scale-100">
-        <SkillText />
-      </div>
+        
+      <SkillText />
 
       <div className="z-20 w-full max-w-[1200px] mt-4 md:mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 md:gap-6 px-4">
         <SkillCategory 
