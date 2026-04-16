@@ -4,28 +4,28 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 
 const experiences = [
-  {
-    role: "Full Stack Software Engineer (Remote)",
-    company: "HAR.com",
-    duration: "Mar 2023 - Oct 2025",
-    location: "Houston, USA",
-    points: [
-      "Engineered high-scale platform features using Next.js (SSR/ISR) and React, optimizing page load performance by 20% through memoization and efficient state management.",
-      "Architected robust, type-safe backend services and REST APIs using TypeScript, Node.js, and Zod, reducing production runtime errors by 40%.",
-      "Integrated Mapbox with MongoDB/PostgreSQL for advanced geospatial search, improving data retrieval and map rendering speeds by 30% for millions of users.",
-    ],
-  },
-  {
-    role: "Associate Software Engineer",
-    company: "Pakistan Navy",
-    duration: "Mar 2021 - Feb 2023",
-    location: "Karachi, Pakistan",
-    points: [
-      "Digitized manual reporting workflows by developing secure internal web tools with Modern React (ES6+), cutting administrative processing time by 40%.",
-      "Modernized mission-critical legacy UI/UX interfaces, improving data entry accuracy and system responsiveness by 30% across naval departments.",
-      "Maintained 100+ high-security terminals using automated Python/Bash monitoring scripts, ensuring 99.9% operational uptime in a sensitive environment.",
-    ],
-  },
+  {
+   role: "Full Stack Software Engineer | MERN (Remote)",
+    company: "HAR.com",
+    duration: "Mar 2023 - Oct 2025",
+    location: "Houston, USA",
+    points: [
+      "Developed scalable Full-Stack solutions using the MERN stack and Next.js, leveraging SSR/ISR to improve platform performance and SEO by 20%.",
+      "Architected secure RESTful APIs and backend microservices using Express.js and Node.js, implementing TypeScript and Zod to reduce production bugs by 40%.",
+      "Optimized complex data workflows by integrating MongoDB and PostgreSQL with Mapbox, enhancing geospatial search speeds by 30% for high-traffic real estate data."
+    ],
+  },
+  {
+    role: "Associate Software Engineer",
+    company: "Pakistan Navy",
+    duration: "Mar 2021 - Feb 2023",
+    location: "Karachi, Pakistan",
+    points: [
+      "Digitized manual reporting workflows by developing secure internal web tools with Modern React (ES6+), cutting administrative processing time by 40%.",
+      "Modernized mission-critical legacy UI/UX interfaces, improving data entry accuracy and system responsiveness by 30% across naval departments.",
+      "Maintained 100+ high-security terminals using automated Python/Bash monitoring scripts, ensuring 99.9% operational uptime in a sensitive environment.",
+    ],
+  },
 ];
 
 export const Experience = () => {
