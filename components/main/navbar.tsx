@@ -73,11 +73,11 @@ export const Navbar = () => {
         {/* LEFT: LOGO */}
         <Link href="#hero" onClick={() => handleNavClick("#hero")} className="flex items-center gap-2 group shrink-0">
           <Image
-            src="/logo.png"
+            src="/dp.jpg"
             alt="logo"
-            width={55}
-            height={45}
-            className="drop-shadow-[0_0_8px_rgba(112,66,248,0.6)]"
+            width={40}
+            height={100}
+            className="rounded-full"
           />
           <span className="hidden xl:block text-gray-200 font-bold tracking-tight">
             Abdul Salam Wahab

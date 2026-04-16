@@ -41,8 +41,8 @@ export const HeroContent = () => {
           </h1>
 
           {/* Elegant Typewriter Subheading */}
-          <div className="text-xl md:text-3xl font-extrabold min-h-[30px] md:min-h-[40px] flex items-center justify-center xl:justify-start gap-3">
-            <span className="text-gray-400 font-light">A </span>
+          <div className="text-[16px] md:text-3xl font-extrabold min-h-[30px] md:min-h-[40px] flex items-center justify-center xl:justify-start gap-3">
+            <span className="text-gray-400 font-light">A</span>
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-400">
               <Typewriter
                 words={[
