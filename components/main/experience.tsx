@@ -5,7 +5,7 @@ import { useRef } from "react";
 
 const experiences = [
   {
-   role: "Full Stack Software Engineer | MERN (Remote)",
+   role: "Full Stack Software Engineer | MERN, Next.js, AWS (Remote)",
     company: "HAR.com",
     duration: "Mar 2023 - Oct 2025",
     location: "Houston, USA",
