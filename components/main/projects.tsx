@@ -5,10 +5,10 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const PROJECT_DATA = [
   {
-    title: "AI Multi-Vendor E-Commerce Platform",
+    title: "AI Multi-Vendor E-Commerce Saas",
     description:
-      "Full-stack AI-powered marketplace with vendor system, authentication, payments, and smart product recommendations.",
-    tech: ["Next.js", "Gemini AI", "Clerk", "Neon", "Inngest", "PostgreSQL"],
+      "Architected a Multi-vendor E-commerce SaaS with role-based dashboards, memberships, and automated coupon systems. Integrated LLM-driven AI for listing optimization and engineered an event-driven backend via Inngest for async workflows. Implemented secure payment gateways and optimized media for a production-ready, scalable ecosystem.",
+    tech: ["Next.js", "Gemini AI", "Clerk", "Neon", "Inngest", "PostgreSQL", 'Imagekit', 'Tailwind CSS'],
     image: "/projects/ecommerce.jpg",
     github:
       "https://github.com/abdulsalamwahab-dev/gobucket-ai-multivendor-app",
@@ -17,17 +17,17 @@ const PROJECT_DATA = [
   {
     title: "AI Note Taker SaaS App",
     description:
-      "AI-powered note-taking app with LLM integration, subscriptions, and real-time processing.",
+      "Architected an AI SaaS for PDF summarization and vector search using high-performance LLM pipelines. Integrated Paddle for secure subscription billing and utilized Convex for a real-time, reactive backend architecture. Delivered a scalable full-stack ecosystem with optimized API workflows and seamless user authentication.",
     tech: ["Next.js", "Gemini LLM", "Paddle", "Convex", "Clerk", "React"],
     image: "/projects/ai-pdf.jpg",
     github: "https://github.com/abdulsalamwahab-dev/AI-PDF-note-taker",
     live: "https://ai-pdf-note-taker-sigma.vercel.app/",
   },
   {
-    title: "Modern Admin Dashboard",
+    title: "Analytics & Data Visualization Dashboard",
     description:
-      "Responsive dashboard with analytics, charts, authentication, and modern UI components.",
-    tech: ["Next.js", "React", "ShadCN UI", "Dashboard"],
+      "Built an analytics dashboard with interactive charts and KPI tracking using Recharts.Implemented schema validation with Zod and built reusable UI components for scalable workflows",
+    tech: ["TypeScript","Next.js", "React", "ShadCN UI", "Zod", "Recharts"],
     image: "/projects/dashboard.jpg",
     github: "https://github.com/abdulsalamwahab-dev/nextjs-shadcn-dashboard",
     live: "https://nextjs-shadcn-dashboard-rosy.vercel.app/",
@@ -36,10 +36,10 @@ const PROJECT_DATA = [
     title: "Community Discussion Platform",
     description:
       "A simple discussion forum where users can create posts, participate in conversations, and interact using a clean PHP-based backend with MySQL database support.",
-    tech: ["PHP", "HTML", "CSS", "MySQL"],
+    tech: ["PHP", "HTML", "CSS", "MySQL", 'AJAX'],
     image: "/projects/discussions.png",
     github: "https://github.com/abdulsalamwahab-dev/community-discussion-platform.git",
-    live: "",
+    live: "https://discussion-platform.wuaze.com/index.php?i=1",
   },
 ];
 

@@ -4,28 +4,28 @@ import { motion, useScroll, useSpring } from "framer-motion";
 import { useRef } from "react";
 
 const experiences = [
-  {
-   role: "Full Stack Software Engineer | MERN, Next.js, AWS (Remote)",
-    company: "HAR.com",
-    duration: "Mar 2023 - Oct 2025",
-    location: "Houston, USA",
-    points: [
-      "Developed scalable Full-Stack solutions using the MERN stack and Next.js, leveraging SSR/ISR to improve platform performance and SEO by 20%.",
-      "Architected secure RESTful APIs and backend microservices using Express.js and Node.js, implementing TypeScript and Zod to reduce production bugs by 40%.",
-      "Optimized complex data workflows by integrating MongoDB and PostgreSQL with Mapbox, enhancing geospatial search speeds by 30% for high-traffic real estate data."
-    ],
-  },
-  {
-    role: "Associate Software Engineer",
-    company: "Pakistan Navy",
-    duration: "Mar 2021 - Feb 2023",
-    location: "Karachi, Pakistan",
-    points: [
-      "Digitized manual reporting workflows by developing secure internal web tools with Modern React (ES6+), cutting administrative processing time by 40%.",
-      "Modernized mission-critical legacy UI/UX interfaces, improving data entry accuracy and system responsiveness by 30% across naval departments.",
-      "Maintained 100+ high-security terminals using automated Python/Bash monitoring scripts, ensuring 99.9% operational uptime in a sensitive environment.",
-    ],
-  },
+  {
+    role: "Full Stack Software Engineer | MERN, Next.js, AWS (Remote)",
+    company: "HAR.com",
+    duration: "Mar 2023 - Oct 2025",
+    location: "Houston, USA",
+    points: [
+      "Architected type-safe **Next.js** and **React** interfaces using **TypeScript**, boosting engagement by 15% via Core Web Vitals and SEO optimization.",
+      "Engineered resilient **Node.js** and **Express** APIs, orchestrating **PostgreSQL/MongoDB** environments to reduce data latency by 200ms.",
+      "Deployed **AWS** cloud-native solutions integrating **LangChain/RAG**, boosting operational efficiency by 50% through AI-driven automation."
+    ],
+  },
+  {
+    role: "Associate Software Engineer | Web Development & System Security",
+    company: "Pakistan Navy",
+    duration: "Mar 2021 - Feb 2023",
+    location: "Karachi, Pakistan",
+    points: [
+      "Digitized naval workflows using **React (MERN)** and **Express**, reducing administrative processing time by 40% while ensuring 30% higher data accuracy.",
+      "Maintained 100+ secure terminals using automated **Node.js** and Bash scripts, ensuring 99.9% uptime in a sensitive, zero-fault environment.",
+      "Implemented RBAC-based secure architectures for internal web tools, ensuring zero security breaches and strict adherence to data protocols."
+    ],
+  },
 ];
 
 export const Experience = () => {

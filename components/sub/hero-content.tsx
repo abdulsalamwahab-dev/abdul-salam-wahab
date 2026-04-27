@@ -105,8 +105,8 @@ export const HeroContent = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            href="/Abdul-Salam-Wahab_Full-Stack-Developer_CV.pdf"
-            download="Abdul-Salam-Wahab_Full-Stack-Developer_CV.pdf"
+            href="/CV_Abdul_Salam_Wahab.pdf"
+            download="CV_Abdul_Salam_Wahab.pdf"
             target="_blank"
             className="relative px-6 py-2.5 rounded-xl bg-white/5 border border-white/10 text-white text-sm font-bold tracking-widest uppercase overflow-hidden group/btn hover:border-white/20 transition-all flex items-center justify-center"
           >
